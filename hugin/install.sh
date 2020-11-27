@@ -4,7 +4,7 @@
 set -e
 
 # install hugin & panotools
-apt-get update && apt-get install -y hugin
+apt-get update && apt-get install -y hugin hugin-tools
 
 # cleanup package manager
 apt-get autoclean && apt-get clean
